@@ -1,6 +1,6 @@
 import  React, {useContext, useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
-// import Header from '../Components/Header';
+import Header from '../Components/Header';
 // import Footer from '../Components/Footer';
 // import FloatingActionContact from '../Components/FloatingActionContact';
 // import ProtectedRoute from '../lib/ProtectedRoute.jsx';
@@ -42,7 +42,7 @@ const Layout = () =>{
     return(          
         <div className='min-h-screen bg-gray-50'>
             {/* <ScrollToTop/> */}
-        {/* <Header/> */}
+        <Header/>
        <div className='content'>
         <Outlet/>
        </div>
