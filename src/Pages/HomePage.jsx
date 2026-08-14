@@ -1,6 +1,7 @@
 import {React} from 'react';
 import Hero from '../Components/Hero';
 import CategoryGrid from '../Components/CategoryGrid';
+import FeaturedProducts from '../Components/FeaturedProducts';
 const HomePage = () => {
   return (
    <div>  
@@ -9,6 +10,7 @@ const HomePage = () => {
         <Hero/>
         </section>
        <CategoryGrid/>
+       <FeaturedProducts/>
       </main>    
     </div>
   );
