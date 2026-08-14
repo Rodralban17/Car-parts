@@ -1,7 +1,7 @@
 import  React, {useContext, useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 import Header from '../Components/Header';
-// import Footer from '../Components/Footer';
+import Footer from '../Components/Footer';
 // import FloatingActionContact from '../Components/FloatingActionContact';
 // import ProtectedRoute from '../lib/ProtectedRoute.jsx';
 // import { AuthContext } from '../context/AuthContext.jsx';
@@ -47,7 +47,7 @@ const Layout = () =>{
         <Outlet/>
        </div>
        <div className='top-5'>
-        {/* <Footer/> */}
+        <Footer/>
        </div>
         {/* <FloatingActionContact/> */}
      </div>
